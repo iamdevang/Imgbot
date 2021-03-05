@@ -1,7 +1,7 @@
 # Imgbot
 
 Imgbot crawls all your image files in GitHub and submits pull requests after applying a loss less compression.
-This will make the file size go down, but leave the dimensions and quality just as good.
+This will make the file size go down, but leave the dimensions and the quality just as good.
 
 ![screenshot](https://imgbot.net/images/screen.png?cache=2)
 
@@ -41,8 +41,8 @@ to help@imgbot.net
 
 - Optional
 - Accepts the syntax for searchPattern on [Directory.EnumerateFiles()](https://docs.microsoft.com/en-us/dotnet/api/system.io.directory.enumeratefiles)
-- Limits the images optimized by Imgbot by essentially ignoring them
-- When ignoring by file name no path is necessary, when ignoring by folder name full path from root is necessary
+- Limits the images optimized by Imgbot by essentially ignoring them.
+- When ignoring by file name no path is necessary, when ignoring by folder name full path from root is necessary.
 
 **aggressiveCompression**
 
